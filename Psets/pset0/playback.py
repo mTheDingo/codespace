@@ -5,8 +5,8 @@ def main():
 
 def printUserInput():
     inp = input("What would you like to say ? :   ")
-    print(f"{inp}", sep="...")
-    print()
+    print(inp, sep='...')
+
 
 
 main()
