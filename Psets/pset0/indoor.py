@@ -13,3 +13,10 @@ def printUserInput():
 
 
 main()
+
+
+
+
+#Nıcely done!
+
+#Program is functional and has a better design based on pyhton conventions
