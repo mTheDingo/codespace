@@ -11,3 +11,9 @@ def printUserInput():
 
 
 main()
+
+#This program works but the prompt is not descriptive enough
+
+#I have wrote a similar program to the one in lecture video so it works
+
+#however it seperates 3 different strings with '...' instead of each space in A string
