@@ -4,5 +4,6 @@ and then outputs the equivalent number of Joules as an integer. Assume that the 
 
 
 # prompt the user for a mass as an integer
+mass = int(input("Mass: "))
 # output the equivalent number of joules as an integer
 
