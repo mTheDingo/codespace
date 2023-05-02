@@ -9,7 +9,7 @@ def main():
 
 
 def convert():
-    string = input(" :   ").replace(" :) ", "🙂").replace( " :( ", "🙁")
+    string = input(" :   ").replace(' :) ' , "🙂").replace( ' :( ', "🙁")
     print(string)
 
 
