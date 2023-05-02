@@ -4,7 +4,7 @@ def main():
     printUserInput()
 
 def printUserInput():
-    inp = input("What would you like to say ?")
-    print(inp, sep='...')
+    inp = input("What would you like to say ?").split()
+    print(inp, sep='...', end='...')
 
 main()
