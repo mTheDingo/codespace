@@ -9,5 +9,6 @@ mass = int(input("Mass: "))
 E = 0.000239006
 m = mass
 c =300000000/1
+E = pow(m + c, 2)
 
-print(E , " = ", pow(m + c, 2))
+print(E)
