@@ -4,7 +4,9 @@ def main():
     printUserInput()
 
 def printUserInput():
-    inp = input("What would you like to say ?").strip()
-    print(f"{inp}", sep='...')
+    inp = input("What would you like to say ? ").strip()
+    print(f"{inp}", sep='...', end='')
+    print()
+
 
 main()
