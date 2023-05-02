@@ -4,10 +4,8 @@ def main():
     printUserInput()
 
 def printUserInput():
-    first = input("First name? :   ").strip()
-    last = input("Last name? :  ").strip()
-
-    print(first, last, sep='...')
+    name = input("First name? :   ").strip().replace(" ", "...")
+    print(name)
 
 
 main()
