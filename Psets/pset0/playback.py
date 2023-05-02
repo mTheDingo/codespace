@@ -4,8 +4,8 @@ def main():
     printUserInput()
 
 def printUserInput():
-    inp = input("What would you like to say ? :   ").strip()
-    print(f"{inp}", end='...')
+    inp = input("What would you like to say ? :   ")
+    print(f"{inp}", sep="...")
     print()
 
 
