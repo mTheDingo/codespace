@@ -8,9 +8,8 @@ m = int(input("Mass: "))
 # output the equivalent number of joules as an integer
 c = 300000000
 
-m = c**2
+energyjoule = m * c**2
 
-e = 
 
 print(e)
 
