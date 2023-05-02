@@ -4,8 +4,9 @@ def main():
     printUserInput()
 
 def printUserInput():
-    inp = input("What's your name? :   ")
-    print("", inp, sep='...')
+    first = input("First name? :   ")
+    last = input("Last name? :  ")
+    print("Hello", first, last, sep='...')
 
 
 
