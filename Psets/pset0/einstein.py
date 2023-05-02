@@ -6,7 +6,7 @@ and then outputs the equivalent number of Joules as an integer. Assume that the 
 # prompt the user for a mass as an integer
 m = int(input("Mass: "))
 # output the equivalent number of joules as an integer
-c =300000000
+c = 300000000
+E = 1.000001104
 E = pow(m + c, 2)
-
 print(E)
