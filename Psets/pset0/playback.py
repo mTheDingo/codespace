@@ -10,8 +10,7 @@ def printUserInput():
 
 main()
 
-#This program works but the prompt is not descriptive enough
+#This program works as expected thanks to the replace() funtion
 
-#I have wrote a similar program to the one in lecture video so it works
+#replace() takes in 2 parameters and replaces the given phrases(str)
 
-#however it seperates 3 different strings with '...' instead of each space in A string
