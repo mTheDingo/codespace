@@ -9,13 +9,8 @@ def main():
 
 
 def convert():
-    string = input(" :   ")
-    string.replace(':)','🙂')
-    string.replace(':(', '🙁')
-
-
-    print(string)
+    print(input(" : ").strip().replace(':)', "🙂").replace(':(', "🙁"))
 
 
 
-    main()
+main()
