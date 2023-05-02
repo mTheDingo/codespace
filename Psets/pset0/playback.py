@@ -5,6 +5,6 @@ def main():
 
 def printUserInput():
     inp = input("What would you like to say ?").strip()
-    print(inp, sep="...")
+    print(f"{inp}", sep='...')
 
 main()
