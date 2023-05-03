@@ -6,7 +6,10 @@
 
 answer = input("Enter your answer to the Great Question of Life :  ")
 
-if answer == "42" or "fourty two":
-    print("NO")
-else:
-   print("YES")
+match answer:
+    case "42" | "fourty two" | "fourty-two":
+        print("YES")
+    case _:
+        print("NO")
+
+
