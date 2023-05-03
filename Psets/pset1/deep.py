@@ -4,7 +4,7 @@
 
 
 
-answer = input("Enter your answer to the Great Question of Life :  ").lower().strip()
+answer = input("Enter your answer to the Great Question of Life :  ").lower().strip().split()
 
 match answer:
     case "42" | "fourty two" | "fourty-two":
