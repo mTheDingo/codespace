@@ -4,8 +4,11 @@
  """
 
 
- greet = input("Greet : ").lower().strip()
+greet = input("Greet : ").lower().strip()
 
-if greet = "hello" or "h" != in greet:
+if greet = "hello":
     print("$0")
-elif gree
+elif "h" in greet:
+   print("$20")
+else:
+   print("$100")
