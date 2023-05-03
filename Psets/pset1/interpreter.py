@@ -13,7 +13,7 @@ expression = input("Enter your expression:  ")
 
 x, y, z = int(expression.split(" "))#Check
 
-match y:
+match str(y):
     case "+":
         print(x + z)
     case "-":
