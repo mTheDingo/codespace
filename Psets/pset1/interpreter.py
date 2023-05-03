@@ -13,7 +13,7 @@ expression = input("Enter your expression:  ")
 
 x, y, z = expression.format()
 
-match str(y):
+match y:
     case "+":
         print(x + z)
     case "-":
@@ -23,4 +23,7 @@ match str(y):
     case "/":
         print(x / z)
     case _ :
-        print("Enter valid math expressions!")
+        print("Enter valid math expressions!"),
+
+#i'll come back to this,
+# the current problem is to use the format function
