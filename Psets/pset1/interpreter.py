@@ -11,16 +11,16 @@ For instance, if the user inputs 1 + 1, your program should output 2.0. Assume t
 
 expression = input("Enter your expression:  ")
 
-x, y, z = expression.split(" ") #Check
+x, y, z = expression.format(x, z)
 
 match str(y):
     case "+":
-        print(int(x + z))
+        print(x + z)
     case "-":
-        print(int(x - z))
+        print(x - z)
     case "*":
-        print(int(x * z))
+        print(x * z)
     case "/":
-        print(int(x / z))
+        print(x / z)
     case _ :
         print("Enter valid math expressions!")
