@@ -13,3 +13,6 @@ match answer:
         print("NO")
 
 
+# the program works according to the tests as on the pset1 web page.
+# However it's not sentsitive to everything.
+# so i kinda cheated by converting everything to lower and then adding the fourty-two case in the match statement
