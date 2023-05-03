@@ -28,3 +28,5 @@ elif ".zip" in name:
     print("FILE/ZIP")
 else:
     print("application/octet-stream")
+
+
