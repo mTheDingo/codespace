@@ -30,3 +30,7 @@ else:
     print("application/octet-stream")
 
 
+#This program works as expected
+# however, i feel like there could be a better way to design it
+# but on the other hand, each if statement has a different outcome, so i think this is pretty close to the best design or my level of knowledge is not good enough at this point.
+# What if there was 120 different file extentions ?  we can't code them one by one like this
