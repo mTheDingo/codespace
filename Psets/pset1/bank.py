@@ -6,7 +6,7 @@
 
 greet = input("Greet : ").lower().strip().split()
 
-if greet[0] == "hello":
+if greet[0] == "hello" or "hello,":
     print("$0")
 elif "h" in greet[0][0]:
    print("$20")
