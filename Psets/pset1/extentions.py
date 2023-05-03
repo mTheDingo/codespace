@@ -14,4 +14,17 @@
 name = input("Name of the file : ").casefold()
 
 
-if 
+if ".gif" in name:
+    print("Image/GIF")
+elif ".jpg" and ".jpeg" in name :
+    print("Image/JPG")
+elif ".png" in name:
+    print("Image/PNG")
+elif ".pdf" in name:
+    print("APPLICATION/PDF")
+elif ".txt" in name:
+    print("TEXT/TXT")
+elif ".zip" in name:
+    print("FILE/ZIP")
+else:
+    print("application/octet-stream")
