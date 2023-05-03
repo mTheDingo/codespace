@@ -4,9 +4,9 @@
  """
 
 
-greet = input("Greet : ").lower().strip()
+greet = input("Greet : ").lower().strip().split()
 
-if greet = "hello":
+if greet[0] = "hello":
     print("$0")
 elif "h" in greet:
    print("$20")
