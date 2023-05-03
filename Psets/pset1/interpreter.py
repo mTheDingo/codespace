@@ -11,7 +11,7 @@ For instance, if the user inputs 1 + 1, your program should output 2.0. Assume t
 
 expression = input("Enter your expression:  ")
 
-x, y, z = expression.split()
+x, y, z = int(expression.split())#Check
 
 match y:
     case "+":
@@ -22,4 +22,5 @@ match y:
         print(x * z)
     case "/":
         print(x / z)
-    case
+    case _ :
+        print("Enter valid math expressions!")
