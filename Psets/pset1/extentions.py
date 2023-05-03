@@ -12,3 +12,6 @@
 """
 
 name = input("Name of the file : ").casefold()
+
+
+if 
