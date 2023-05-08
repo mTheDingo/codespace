@@ -1,8 +1,9 @@
 
-names =[]
+names = []
+
+for _ in range(3):
+    names.append(input("What's your name ? "))  #.append -() appends values to the list
 
 
-with open("names.csv", "a") as file:
-    names.append( input("what's your name? ").strip())
-
-
+for name in sorted(names):  #sorted() sorts the list for us.
+    print(f"hello, {name}")
