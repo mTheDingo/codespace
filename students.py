@@ -1,5 +1,6 @@
-name = input("What's your name? ")
-last = input("What's your last name? ")
 
-with open("names.txt", "a") as file:
-     file.write(f"{name}, {last}\n")
+with open("names.txt", "r") as file:
+    for line in file:
+        row = line.rstrip().split(",")
+        print(f"{row[0]} is in {row[1]}")
+
