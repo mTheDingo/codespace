@@ -1,7 +1,8 @@
-import file
+
+names =[]
 
 
 with open("names.csv", "a") as file:
-    append( input("what's your name? ").strip())
+    names.append( input("what's your name? ").strip())
 
 
